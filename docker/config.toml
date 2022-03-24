@@ -1,0 +1,2 @@
+consul_addr = "https://consul.test.nolibox.com/v1/kv"
+config_path = "/nolipix/config_zxs.toml"

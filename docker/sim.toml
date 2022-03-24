@@ -1,0 +1,2 @@
+consul_addr = "http://consul-consul-server.consul.svc.cluster.local:8500/v1/kv"
+config_path = "/nolipix/config_zxs.toml"

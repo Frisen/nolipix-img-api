@@ -1,0 +1,2 @@
+service/compress_service.go:16:2: no required module provides package github.com/shamsher31/goimgtype; to add it:
+	go get github.com/shamsher31/goimgtype
