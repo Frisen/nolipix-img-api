@@ -3,13 +3,8 @@ module nolipix-img-api
 go 1.18
 
 require (
-	github.com/BurntSushi/toml v1.0.0
-	github.com/chenjiandongx/ginprom v0.0.0-20210617023641-6c809602c38a
-	github.com/gin-contrib/pprof v1.3.0
 	github.com/gin-gonic/gin v1.7.7
-	github.com/parnurzeal/gorequest v0.2.16
 	github.com/prometheus/client_golang v1.12.1
-	gorm.io/driver/mysql v1.3.2
 )
 
 require (
@@ -26,8 +21,6 @@ require (
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/satori/go.uuid v1.2.0 // indirect
-	github.com/shamsher31/goimgext v1.0.0 // indirect
-	github.com/shamsher31/goimgtype v1.0.0 // indirect
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	golang.org/x/net v0.0.0-20210525063256-abc453219eb5 // indirect
 	golang.org/x/time v0.0.0-20220224211638-0e9765cccd65 // indirect
@@ -37,7 +30,10 @@ require (
 )
 
 require (
+	github.com/BurntSushi/toml v1.0.0
 	github.com/aliyun/aliyun-oss-go-sdk v2.2.1+incompatible
+	github.com/chenjiandongx/ginprom v0.0.0-20210617023641-6c809602c38a
+	github.com/gin-contrib/pprof v1.3.0
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
@@ -48,9 +44,11 @@ require (
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/parnurzeal/gorequest v0.2.16
 	github.com/ugorji/go/codec v1.1.7 // indirect
 	gocv.io/x/gocv v0.30.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 	golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gorm.io/driver/mysql v1.3.2
 )
