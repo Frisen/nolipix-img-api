@@ -15,7 +15,7 @@ func Compress(c *gin.Context) {
 		response.Error(c, req, err.Error())
 		return
 	}
-	thumbUrl, err := service.Compress(req.Url, req.Rows, req.Cols)
+	thumbUrl, err := service.Compress(c, *req)
 	if err != nil {
 		response.Error(c, thumbUrl, err.Error())
 		return
